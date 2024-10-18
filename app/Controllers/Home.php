@@ -28,7 +28,7 @@ class Home extends BaseController
 
         $email->setSubject('Test email');
 
-        $email->setMessage('<h1>Puto pendejo</h1>');
+        $email->setMessage('<h1>This is a test email</h1>');
 
         if ($email->send()) {
             echo "Email sent";
